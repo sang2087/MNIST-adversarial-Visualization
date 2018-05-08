@@ -1,7 +1,7 @@
-#Adversarial MNIST Visualization
+#Adversarial MNIST Weight Visualization
 
 ### 실험 목표
-Adversarial MNIST 데이터와 정상적인 MNIST 데이터가 입력되었을 때 Input, Hidden, Output 노드의 값을 Visualize하여 확인하고자 함.
+Adversarial MNIST 데이터와 정상적인 MNIST 데이터가 입력되었을 때 Input Value Hidden Node의 Weight 값, Output Node의 Weight 값을 Visualize하여 확인하고자 함.
 
 ### 실험 내용
 - 20개의 Hidden Node, 10개의 Output Node, 1개의 Hidden Layer를 가진 MLP 모델을 구성함.
