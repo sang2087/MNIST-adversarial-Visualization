@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MNIST Adversarial Visualize</title>
+  <link rel="stylesheet" type="text/css" href="main.css"/>
+  <script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="jquery.svg.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="main.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+
+<div style="margin-left:300px;">
+  <span class="toggle" onclick="toggle_input_text()">
+    TOGGLE INPUT VALUE(I)
+  </span>
+  <span class="toggle" onclick="toggle_hidden_text()">
+    TOGGLE HIDDEN WEIGHT(H)
+  </span>
+  <span class="toggle" onclick="toggle_hidden_product()">
+    TOGGLE INPUT VALUE * HIDDEN WEIGHT(P)
+  </span>
+  <span class="toggle" onclick="toggle_hidden_to_output_type()">
+    TOGGLE LINE TYPE(T)
+  </span>
+</div>
+
+<div class="wrapper">
+  <div id="header" class="canvas">
+  </div>
+  <div id="images">
+    <img src="" alt="" />
+  </div>
+  <div id="output_line" class="canvas"> </div>
+  <div id="container">
+    <div id="canvas" class="canvas">
+    </div>
+  </div>
+  <div id="input_node_text" class="canvas hide-svg"> </div>
+  <div id="hidden_node" class="canvas"> </div>
+  <div id="hidden_node_text" class="canvas hide-svg"> </div>
+  <div id="hidden_product" class="canvas hide-svg"> </div>
+  <div id="output_node" class="canvas"> </div>
+  <div id="node_button" class="canvas"> </div>
+</div>
+
+<div id="number_images">
+  <div class="text">
+  </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+</script>
+
