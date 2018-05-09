@@ -1,4 +1,4 @@
-#Adversarial MNIST Weight Visualization
+# Adversarial MNIST Weight Visualization
 
 ### 실험 목표
 Adversarial MNIST 데이터와 정상적인 MNIST 데이터가 입력되었을 때 Input Value Hidden Node의 Weight 값, Output Node의 Weight 값을 Visualize하여 확인하고자 함.
